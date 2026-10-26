@@ -1,0 +1,21 @@
+﻿herb_id,latin_name,name_en,name_hi,name_ta,name_kn,name_ml,name_te,name_mr
+H01,Ocimum tenuiflorum,Tulsi (Holy basil),तुलसी,துளசி,ತುಳಸಿ,തുളസി,తులసి,तुळस
+H02,Zingiber officinale,Ginger,अदरक,இஞ்சி,ಶುಂಠಿ,ഇഞ്ചി,అల్లం,आले
+H03,Santalum album,Sandalwood,चंदन,சந்தனம்,ಶ್ರೀಗಂಧ,ചന്ദനം,చందనం,चंदन
+H04,Cuminum cyminum,Cumin,जीरा,சீரகம்,ಜೀರಿಗೆ,ജീരകം,జీలకర్ర,जिरे
+H05,Foeniculum vulgare,Fennel,सौंफ,சோம்பு,ಸೋಂಪು,പെരുഞ്ചീരകം,సోంపు,बडीशेप
+H06,Curcuma longa,Turmeric,हल्दी,மஞ்சள்,ಅರಿಶಿನ,മഞ്ഞൾ,పసుపు,हळद
+H07,Honey (not a plant),Honey,शहद,தேன்,ಜೇನುತುಪ್ಪ,തേൻ,తేనె,मध
+H08,Tinospora cordifolia,Giloy (Guduchi),गिलोय,சீந்தில்,ಅಮೃತಬಳ್ಳಿ,ചിറ്റമൃത്,తిప్పతీగ,गुळवेल
+H09,Triphala (formulation),Triphala,त्रिफला,திரிபலா,ತ್ರಿಫಲ,ത്രിഫല,త్రిఫల,त्रिफळा
+H10,Azadirachta indica,Neem,नीम,வேம்பு,ಬೇವು,വേപ്പ്,వేప,कडुनिंब
+H11,Aloe barbadensis,Aloe vera,ऐलोवेरा (घृतकुमारी),கற்றாழை,ಲೋಳೆಸರ,കറ്റാർവാഴ,కలబంద,कोरफड
+H12,Withania somnifera,Ashwagandha,अश्वगंधा,அஸ்வகந்தா,ಅಶ್ವಗಂಧ,അമുക്കുരം,అశ్వగంధ,अश्वगंधा
+H13,Bacopa monnieri,Brahmi,ब्राह्मी,வல்லாரை,ಬ್ರಾಹ್ಮಿ,ബ്രഹ്മി,బ్రాహ్మి,ब्राह्मी
+H14,Elettaria cardamomum,Cardamom,इलायची,ஏலக்காய்,ಏಲಕ್ಕಿ,ഏലയ്ക്ക,యాలకులు,वेलची
+H15,Phyllanthus emblica,Amla (Indian gooseberry),आंवला,நெல்லிக்காய்,ನೆಲ್ಲಿಕಾಯಿ,നെല്ലിക്ക,ఉసిరి,आवळा
+H16,Eclipta prostrata,Bhringraj,भृंगराज,கரிசலாங்கண்ணி,ಭೃಂಗರಾಜ,കയ്യോന്നി,గుంటగలగర,माका (भृंगराज)
+H17,Syzygium aromaticum,Clove,लौंग,கிராம்பு,ಲವಂಗ,ഗ്രാമ്പൂ,లవంగం,लवंग
+H18,Trachyspermum ammi,Ajwain (Carom seeds),अजवाइन,ஓமம்,ಓಂ ಕಾಳು,അയമോദകം,వాము,ओवा
+H19,Citrus limon,Lemon,नींबू,எலுமிச்சை,ನಿಂಬೆ ಹಣ್ಣು,നാരങ്ങ,నిమ్మ,लिंबू
+H20,Glycyrrhiza glabra,Licorice (Mulethi),मुलेठी,அதிமதுரம்,ಜೇಷ್ಠಮಧು,ഇരട്ടിമധുരം,అతిమధురం,ज्येष्ठमध

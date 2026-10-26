@@ -1,0 +1,52 @@
+# Local development: one command brings up Postgres + backend + frontend.
+# Production deployment uses the free-tier hosts described in README.md instead
+# (Render/Railway for the backend+DB, Vercel/Netlify for the frontend) —
+# this file is for running the whole stack on your own machine.
+version: "3.9"
+
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: syncsupply
+      POSTGRES_PASSWORD: syncsupply
+      POSTGRES_DB: syncsupply
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U syncsupply"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  backend:
+    build: ./backend
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql://syncsupply:syncsupply@db:5432/syncsupply
+      JWT_SECRET: local-dev-secret-change-me
+      CORS_ORIGINS: http://localhost:5173,http://localhost:8080
+      ENV: development
+      DEBUG: "true"
+    ports:
+      - "8000:8000"
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        VITE_API_BASE_URL: http://localhost:8000
+    restart: unless-stopped
+    depends_on:
+      - backend
+    ports:
+      - "8080:80"
+
+volumes:
+  db_data:
